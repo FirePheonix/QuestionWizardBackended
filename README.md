@@ -1,7 +1,7 @@
 # Project Setup
 
 ### All necessary Prompts i used:
-    https://claude.ai/share/404766b4-ad4f-403e-8b6f-53491bbab672
+### https://claude.ai/share/404766b4-ad4f-403e-8b6f-53491bbab672
     
     To run this project, follow these steps:
     
