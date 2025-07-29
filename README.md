@@ -9,7 +9,7 @@
     2. Run `npm install` to install dependencies.
     3. Setting up .env files:
 
-    I'll help you set up Clerk webhooks using ngrok. Let me first explore the repository structure to understand the current setup and then provide you with step-by-step instructions.
+# I'll help you set up Clerk webhooks using ngrok. Let me first explore the repository structure to understand the current setup and then provide you with step-by-step instructions.
 
 Read file: backend/package.json
 Read file: backend/src/server.ts
@@ -72,6 +72,17 @@ CORS_ORIGIN=http://localhost:5173
 
 # OpenAI (if you're using it)
 OPENAI_API_KEY="your_openai_api_key_here"
+```
+Create a `.env` file in your `frontend` directory with the following content:
+
+```env
+
+# Clerk Publishable Key (https://dashboard.clerk.com/apps/**YOUR_APP_ID**/api-keys)
+VITE_CLERK_PUBLISHABLE_KEY=pk_test_...
+
+# The URL of your backend server for API proxying
+VITE_API_BASE_URL=http://localhost:3001
+
 ```
 
 ### Step 2: Set Up Database
